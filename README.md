@@ -1,3 +1,21 @@
 # DigiBahi
 Secure and reliable Digital Bahi khata using cryptography. Frontend is built using flutter and backend using rust and actix web.
 It project provides both mobile and pc application.
+
+# Working
+I will work like other blockchain systems. Backend server will be built using actix web and MySQL(for database). Frontend will work like non-custodial blockchain wallet.
+## Here is step by step process starting from account creation:
+### 1. Account creation
+User account will be created using KYC details and private-public key pair will be generated. KYC details will be securely stored on backend server. Private key will be encrypted and stored securely on client device using various technologies like android keystore and PKCS12.
+
+### 1. User login
+TBD
+
+### 1. Creating records
+User will sign and send request for records to the server. Server will then verify using public key and record will added to the database.
+
+# Exporting data
+Data can be exported to PDF or JSON files for external use.
+
+# Importing data
+Data can be imported from JSON files
