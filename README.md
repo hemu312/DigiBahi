@@ -8,10 +8,10 @@ I will work like other blockchain systems. Backend server will be built using ac
 ### 1. Account creation
 User account will be created using KYC details and private-public key pair will be generated. KYC details will be securely stored on backend server. Private key will be encrypted and stored securely on client device using various technologies like android keystore and PKCS12.
 
-### 1. User login
+### 2. User login
 TBD
 
-### 1. Creating records
+### 3. Creating records
 User will sign and send request for records to the server. Server will then verify using public key and record will added to the database.
 
 # Exporting data
