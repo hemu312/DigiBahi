@@ -1,6 +1,7 @@
 # DigiBahi
 Secure and reliable Digital Bahi khata using cryptography. Frontend is built using flutter and backend using rust and actix web.
 It project provides both mobile and pc application.
+
 Front design is located [here](https://www.figma.com/file/RpDGO53QxgctvM8j772krq/DigiBahi?type=design&node-id=0%3A1&mode=design&t=Z3IJA8DOBTNRJjmq-1).
 
 # Working
