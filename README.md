@@ -6,7 +6,7 @@ It project provides both mobile and pc application.
 I will work like other blockchain systems. Backend server will be built using actix web and MySQL(for database). Frontend will work like non-custodial blockchain wallet.
 ## Here is step by step process starting from account creation:
 ### 1. Account creation
-User account will be created using KYC details and private-public key pair will be generated. KYC details will be securely stored on backend server. Private key will be encrypted and stored securely on client device using various technologies like android keystore and PKCS12.
+User account will be created using user Email-id and private-public key pair will be generated. User details will be securely stored on backend server. Private key will be encrypted and stored securely on client device using various technologies like android keystore and PKCS12.
 
 ### 2. User login
 TBD
