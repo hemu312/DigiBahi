@@ -16,7 +16,7 @@ Backend will be built using actix web and MySQL. DigiBahi database will have two
 User account will be created using user Email-id and private-public key pair will be generated. User details will be securely stored on backend server. Private key will be encrypted and stored securely on client device using various technologies like android keystore and PKCS12.
 
 ### 2. User login
-TBD
+User will login using username and password after successful login. A token will be generated and will be sent to client device to keep session alive.
 
 ### 3. Creating records
 User will sign and send request for records to the server. Server will then verify using public key and record will added to the database.
