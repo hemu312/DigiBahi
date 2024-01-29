@@ -11,6 +11,7 @@ Backend will be built using actix web and MySQL. DigiBahi database will have two
 1. Transactions table which will have columns Id(Serial number of transaction), Sender, Receiver, Amount and Timestamp.
 1. Blockchain table which will have columns Id(Serial number of block), Start(starting transaction id), End(last transaction id), Hash(previous block hash)
    Selected transaction will be converted to csv then hash will be calculated.
+1. Users table which will have columns Id, Username, Public-Key, Email-Id, Token, time joined
 ## Here is step by step process starting from account creation:
 ### 1. Account creation
 User account will be created using user Email-id and private-public key pair will be generated. User details will be securely stored on backend server. Private key will be encrypted and stored securely on client device using various technologies like android keystore and PKCS12.
