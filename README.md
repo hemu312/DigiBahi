@@ -5,7 +5,7 @@ It project provides both mobile and pc application.
 Front design is located [here](https://www.figma.com/file/RpDGO53QxgctvM8j772krq/DigiBahi?type=design&node-id=0%3A1&mode=design&t=Z3IJA8DOBTNRJjmq-1).
 
 # Working
-I will work like other blockchain systems. Backend server will be built using actix web and MySQL(for database). Frontend will work like non-custodial blockchain wallet.
+It will work like other blockchain systems. Backend server will be built using actix web and MySQL(for database). Frontend will work like non-custodial blockchain wallet.
 ## Here is step by step process starting from account creation:
 ### 1. Account creation
 User account will be created using user Email-id and private-public key pair will be generated. User details will be securely stored on backend server. Private key will be encrypted and stored securely on client device using various technologies like android keystore and PKCS12.
